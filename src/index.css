@@ -1,0 +1,106 @@
+:root {
+  --primary-color: #225c7b;
+  --secondary-color: #ffffc8;
+  --third-color: #fff;
+  --fourth-color: #cc5500;
+  --primary-text: #fff;
+  --secondary-text: #000;
+  --third-text: #4a4a4a;
+  --highlight-color: #ff6a00;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  width: 100%;
+}
+/* General Styles */
+
+body,
+html {
+  color: var(--primary-text);
+  font-family: sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--secondary-text);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-text);
+  cursor: pointer;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.section1 {
+  background-color: var(--secondary-color);
+  padding: 30px 0;
+}
+
+.section2 {
+  background-color: var(--third-color);
+  padding: 30px 0;
+}
+
+.btn {
+  margin: 0 25px;
+  font-family: "Roboto Mono", monospace;
+  background-color: var(--fourth-color);
+  border: none;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 22px;
+  cursor: pointer;
+  color: var(--main-text);
+  transition: 0.1s ease-in;
+  border-radius: 7px;
+  color: var(--third-color);
+  outline: none;
+}
+
+.btn.btn-screen-width-image {
+  background-color: transparent;
+  border: 3px solid white;
+}
+
+.btn.card-btn {
+  font-size: 14px;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: var(--highlight-color);
+}
+
+@media only screen and (min-width: 1750px) {
+  #c-HeroContainer__image {
+    height: 450px;
+  }
+}

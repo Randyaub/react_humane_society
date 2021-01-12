@@ -1,0 +1,59 @@
+.c-NavBarTopic {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  transition: 0.2s ease-in;
+}
+
+.c-NavBarTopic__link::after {
+  content: "";
+  width: 0px;
+  height: 4px;
+  display: block;
+  background: var(--fourth-color);
+  transition: 300ms;
+}
+
+.c-NavBarTopic:hover > .c-NavBarTopic__link:after,
+.c-NavBarTopic__link:hover::after {
+  width: 100%;
+}
+
+.c-NavBarTopic__subtopics {
+  position: absolute;
+  top: 84px;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  min-width: 650px;
+  margin: 0 auto;
+  background-color: rgba(31, 30, 30, 0.95);
+  display: none;
+  padding: 25px 30px;
+  -webkit-box-shadow: 0px 15px 20px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 15px 20px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 15px 20px 5px rgba(0, 0, 0, 0.75);
+}
+
+.arrow-down {
+  font-size: 19px;
+  padding-left: 8px;
+}
+
+.c-NavBarTopic__subtopics li {
+  display: block;
+  padding: 5px 0px;
+}
+
+.c-NavBarTopic__subtopics li:first-of-type {
+  padding-top: 15px;
+}
+
+.c-NavBarTopic__subtopics a {
+  padding: 0;
+  font-size: 15px;
+}
+
+.c-NavBarTopic__subtopics a:hover {
+  text-decoration: underline;
+}

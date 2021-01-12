@@ -1,0 +1,41 @@
+.c-DonateSection {
+  height: 350px;
+  position: relative;
+}
+
+.c-DonateSection__image {
+  object-fit: cover;
+  height: 350px;
+  width: 100%;
+}
+
+.l-DonateSection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(13, 99, 148, 0.4);
+}
+
+.c-DonateSection__info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.c-DonateSection__info > h2 {
+  display: block;
+  color: var(--primary-text);
+  font-size: 52px;
+}
+
+.c-DonateSection-btn {
+  background-color: transparent;
+  border: 3px solid white;
+  font-size: 24px;
+  font: outline;
+}

@@ -1,0 +1,21 @@
+.c-NavBarDropDown__col {
+  float: left;
+  width: 45%;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.c-NavBarDropDown__col:last-child {
+  margin-right: 0px;
+}
+
+.c-NavBarDropDown__category {
+  font-size: 22px;
+  padding-bottom: 10px;
+  color: #fff;
+  border-bottom: 2px solid white;
+}
+
+.c-NavBarDropDown__category:first-of-type {
+  margin-top: 0;
+}

@@ -1,0 +1,32 @@
+.c-MobileNavigation__container {
+  position: absolute;
+  background-color: rgba(31, 31, 31, 0.99);
+  width: 100%;
+  z-index: 99;
+  max-height: 30px;
+  transition: 0.2s ease-in;
+}
+
+.c-MobileNavigation {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-MobileNavigation-unactive {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.c-MobileNavigation-active {
+  visibility: visible;
+  opacity: 1;
+  max-height: 500px;
+}
+
+@media only screen and (min-width: 1050px) {
+  .c-MobileNavigation__container {
+    visibility: hidden;
+    opacity: 0;
+  }
+}

@@ -1,0 +1,32 @@
+.c-MobileSubTopics {
+  width: 100%;
+  background-color: rgba(24, 24, 24, 0.9);
+  text-align: center;
+  transition: all 0.2s ease-in;
+  overflow: hidden;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+
+.c-MobileSubTopics__item {
+  cursor: pointer;
+  padding: 15px 0px;
+  border-bottom: 1px solid rgb(43, 43, 43);
+}
+
+.c-MobileSubTopics__item:hover {
+  background-color: rgba(21, 21, 21, 0.85);
+}
+
+.c-MobileSubTopics-unactive {
+  visibility: hidden;
+  opacity: 0;
+  max-height: 0px;
+}
+
+.c-MobileSubTopics-active {
+  visibility: visible;
+  opacity: 1;
+  max-height: 500px;
+}

@@ -1,0 +1,83 @@
+nav {
+  background-color: var(--primary-color);
+  border-bottom: 2px solid white;
+}
+
+nav ul {
+  position: relative;
+}
+
+nav li:hover .c-NavBarTopic__subtopics {
+  display: block;
+}
+
+.c-NavBar {
+  max-width: 1400px;
+  padding: 0px 20px;
+  margin: 0px auto;
+}
+
+.c-NavBar__menu {
+  justify-content: flex-end;
+}
+
+.c-NavBar__menu a {
+  padding: 10px 20px;
+}
+
+.l-NavBar {
+  justify-content: flex-start;
+}
+
+.c-NavBar__logo {
+  height: 80px;
+  padding: 5px 0;
+}
+
+.c-NavBar__bars {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.c-NavBar__x {
+  font-size: 40px;
+  cursor: pointer;
+  padding-right: 4px;
+}
+
+/* Donate Button */
+
+.c-NavBarTopic__btn {
+  border: 2px solid #f1f1f1;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: var(--fourth-color);
+}
+
+.c-NavBarTopic__btn:hover {
+  background-color: var(--highlight-color);
+}
+
+.c-NavBar__dropdown {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1050px) {
+  .c-NavBar__menu {
+    display: none;
+  }
+
+  .c-NavBarTopic__btn {
+    display: none;
+  }
+
+  .c-NavBar__dropdown {
+    display: flex;
+  }
+
+  .l-NavBar {
+    justify-content: space-between;
+  }
+}

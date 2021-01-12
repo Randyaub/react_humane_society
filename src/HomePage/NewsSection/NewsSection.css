@@ -1,0 +1,12 @@
+.c-NewsSection__title {
+  color: var(--secondary-text);
+  text-align: center;
+  margin-top: 100px;
+  font-size: 38px;
+}
+
+.l-NewsSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 400px);
+  justify-content: center;
+}

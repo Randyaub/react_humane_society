@@ -1,0 +1,29 @@
+.c-AnimalCard__image {
+  display: block;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border: 2px solid black;
+}
+
+.c-AnimalCard__title {
+  color: var(--secondary-text);
+  text-align: center;
+  font-size: 22px;
+  padding: 10px 0;
+  font-weight: 700;
+}
+
+.c-AnimalCard {
+  padding: 20px;
+  background-color: rgb(218, 237, 253);
+}
+
+.c-AnimalCard-bold {
+  font-size: 14px;
+}
+
+.c-AnimalCard__text {
+  padding: 2px 0px;
+  font-size: 13px;
+}
