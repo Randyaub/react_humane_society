@@ -5,9 +5,11 @@ This website is a landing page for a hypothetical humane society website
 ## Motivation
 
 My motivation for making this landing page came from viewing the Regina Humane Society. This is my hometowns humane society website and
-I always thought it looked messy. The banner doesnt scale to 4k resolution, and the section that includes thier location and social medias
+I always thought it looked messy. The banner doesnt scale to 4k resolution, and the section that includes their location and social medias
 felt un-natural to me. So I decided to try to create a humane society website landing page in my own vision. Trying to focus on clarity of
 viewing.
+
+The website I was referencing: [Regina Humane Society](https://reginahumanesociety.ca/)
 
 ## Tech/Framework/Modules/API's
 
