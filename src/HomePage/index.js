@@ -1,5 +1,4 @@
 import React from "react";
-
 import DonateSection from "./DonateSection";
 import HeroContainer from "./HeroContainer";
 import NavBar from "../common/NavBar";

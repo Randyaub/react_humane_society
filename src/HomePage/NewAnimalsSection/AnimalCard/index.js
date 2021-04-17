@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 import "./AnimalCard.css";
 
-const AnimalCard = (props) => {
+const AnimalCard = ({ animal }) => {
   return (
-    props.animal &&
-    props.animal.map((animal, index) => {
+    animal &&
+    animal.map((animal) => {
       return (
-        <div className="c-AnimalCard" key={index}>
-          <Link to="#">
+        <div className="c-AnimalCard" key={animal.image}>
+          <Link>
             <img className="c-AnimalCard__image" src={animal.image} alt="" />
           </Link>
           <h3 className="c-AnimalCard__title">{animal.name}</h3>
@@ -24,7 +24,7 @@ const AnimalCard = (props) => {
               <span className="c-AnimalCard-bold">Age: </span> {animal.age}
             </h5>
             <h5 className="c-AnimalCard__text">
-              <span className="c-AnimalCard-bold">Date Available: </span>{" "}
+              <span className="c-AnimalCard-bold">Date Available: </span>
               {animal.available}
             </h5>
           </div>

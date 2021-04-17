@@ -12,7 +12,7 @@ const HeroContainer = () => {
             <p className="c-HeroContainer__message">
               You can change a homeless animals world
             </p>
-            <div className="c-HeroContainer__buttons">
+            <div>
               <button className="btn c-HeroContainer__btn">ADOPT</button>
               <button className="btn c-HeroContainer__btn">DONATE</button>
             </div>

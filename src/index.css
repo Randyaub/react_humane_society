@@ -51,7 +51,6 @@ a {
   text-decoration: none;
   color: var(--primary-text);
   cursor: pointer;
-  padding: 0;
 }
 
 ul {
@@ -97,10 +96,4 @@ ul {
 
 .btn:hover {
   background-color: var(--highlight-color);
-}
-
-@media only screen and (min-width: 1750px) {
-  #c-HeroContainer__image {
-    height: 450px;
-  }
 }
