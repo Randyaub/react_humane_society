@@ -9,12 +9,14 @@ const DonateSection = () => {
         <img
           className="c-DonateSection__image"
           src="hero-image-1.jpg"
-          alt="hero"
+          alt="Two dogs sniffing the ground"
         />
         <div className="l-DonateSection">
           <div className="c-DonateSection__info">
             <h2>Donate Today!</h2>
-            <button className="btn c-DonateSection-btn">Make A Donation</button>
+            <button className="btn c-DonateSection__btn">
+              Make A Donation
+            </button>
           </div>
         </div>
       </div>

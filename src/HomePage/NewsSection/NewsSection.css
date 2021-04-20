@@ -1,12 +1,11 @@
-.c-NewsSection__title {
-  color: var(--secondary-text);
-  text-align: center;
-  margin-top: 100px;
-  font-size: 38px;
-}
-
 .l-NewsSection {
   display: grid;
   grid-template-columns: repeat(auto-fit, 400px);
   justify-content: center;
+}
+
+@media only screen and (max-width: 400px) {
+  .l-NewsSection {
+    grid-template-columns: repeat(auto-fit, 370px);
+  }
 }

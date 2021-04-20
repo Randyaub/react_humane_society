@@ -3,14 +3,18 @@ import { Link } from "react-router-dom";
 
 import "./AnimalCard.css";
 
-const AnimalCard = ({ animal }) => {
+const AnimalCard = ({ animals }) => {
   return (
-    animal &&
-    animal.map((animal) => {
+    animals &&
+    animals.map((animal) => {
       return (
         <div className="c-AnimalCard" key={animal.image}>
           <Link>
-            <img className="c-AnimalCard__image" src={animal.image} alt="" />
+            <img
+              className="c-AnimalCard__image"
+              src={animal.image}
+              alt={`${animal.name}`}
+            />
           </Link>
           <h3 className="c-AnimalCard__title">{animal.name}</h3>
           <div>

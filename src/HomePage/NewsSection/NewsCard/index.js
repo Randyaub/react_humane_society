@@ -14,8 +14,8 @@ const NewsCard = ({ news }) => {
             <img className="c-NewsCard__image" src={news.image} alt="news" />
           </div>
           <h3 className="c-NewsCard__subtitle">{news.subtitle}</h3>
-          <p className="c-NewsCard__date">{news.date}</p>
           <p>{news.description}</p>
+          <p className="c-NewsCard__date">Posted: {news.date}</p>
           <Link className="c-NewsCard__link">Read More</Link>
           <button className="btn c-NewsCard__btn">{news.button}</button>
         </div>

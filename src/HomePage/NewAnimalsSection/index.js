@@ -4,7 +4,7 @@ import "./NewAnimalsSection.css";
 import AnimalCard from "./AnimalCard";
 
 const NewAnimalsSection = () => {
-  const animal = [
+  const animals = [
     {
       image: "animal-1.jpg",
       name: "Echo",
@@ -46,7 +46,7 @@ const NewAnimalsSection = () => {
           <h2 className="c-NewAnimalSection__title">New Arrivals</h2>
         </div>
         <div className="l-NewAnimalSection">
-          <AnimalCard animal={animal} />
+          <AnimalCard animals={animals} />
         </div>
       </div>
     </section>

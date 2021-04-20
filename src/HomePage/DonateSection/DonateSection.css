@@ -1,41 +1,53 @@
 .c-DonateSection {
   height: 350px;
+  text-align: center;
   position: relative;
 }
 
 .c-DonateSection__image {
-  object-fit: cover;
   height: 350px;
+  object-fit: cover;
   width: 100%;
 }
 
 .l-DonateSection {
+  background-color: rgba(13, 99, 148, 0.4);
+  height: 100%;
   position: absolute;
   top: 0;
-  left: 0;
-  height: 100%;
   width: 100%;
-  background-color: rgba(13, 99, 148, 0.4);
 }
 
 .c-DonateSection__info {
-  height: 100%;
+  padding: 0px 20px;
+  align-items: center;
   display: flex;
   flex-direction: column;
+  height: 100%;
   justify-content: center;
-  align-items: center;
-  gap: 60px;
 }
 
 .c-DonateSection__info > h2 {
-  display: block;
   color: var(--primary-text);
-  font-size: 52px;
+  display: block;
+  margin-bottom: 60px;
+  font-size: 3.2em;
 }
 
-.c-DonateSection-btn {
+.c-DonateSection__btn {
   background-color: transparent;
   border: 3px solid white;
-  font-size: 24px;
-  font: outline;
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width: 426px) {
+  .c-DonateSection {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .c-DonateSection {
+    font-size: 12px;
+  }
 }

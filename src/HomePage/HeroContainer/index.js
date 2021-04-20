@@ -10,7 +10,7 @@ const HeroContainer = () => {
           <div className="c-HeroContainer__left flex">
             <h1 className="c-HeroContainer__title">Save Lives Today</h1>
             <p className="c-HeroContainer__message">
-              You can change a homeless animals world
+              You can change an animals world
             </p>
             <div>
               <button className="btn c-HeroContainer__btn">ADOPT</button>

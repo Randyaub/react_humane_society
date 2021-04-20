@@ -10,23 +10,25 @@
   border-left: 10px solid var(--fourth-color);
   margin-bottom: 20px;
   padding: 20px 10px;
+  font-size: 25px;
 }
 
 .c-NewsCard__subtitle {
   text-align: center;
-  font-size: 22px;
-  padding: 10px 0px 5px 0px;
+  font-size: 20px;
+  padding: 15px 0px 10px 0px;
 }
 
 .c-NewsCard__date {
   padding: 10px 0;
-  font-weight: bold;
+  font-size: 14px;
 }
 
 .c-NewsCard__link {
+  display: inline;
   color: var(--fourth-color);
   font-weight: bold;
-  padding: 10px 0;
+  padding: 4px 0px 10px;
 }
 
 .c-NewsCard__link:hover {
@@ -42,6 +44,7 @@
 }
 
 .c-NewsCard__btn {
-  font-size: 17px;
-  margin: 20px 0px 0px 0px;
+  font-size: 18px;
+  padding: 12px 5px;
+  margin: 10px 0px 0px 0px;
 }

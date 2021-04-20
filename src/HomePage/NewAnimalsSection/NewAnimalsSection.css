@@ -21,3 +21,9 @@
 .c-NewAnimalSection {
   padding: 0px 20px;
 }
+
+@media only screen and (max-width: 400px) {
+  .l-NewAnimalSection {
+    grid-template-columns: repeat(auto-fit, 290px);
+  }
+}

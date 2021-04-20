@@ -60,4 +60,7 @@ footer li:hover {
   #c-Footer__logo {
     display: none;
   }
+  #c-Footer__about {
+    padding: 0px;
+  }
 }
